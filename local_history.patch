@@ -1,0 +1,25 @@
+Index: XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java	(revision )
++++ XYZReader/src/main/java/com/example/xyzreader/ui/ArticleListActivity.java	(revision )
+@@ -194,12 +194,12 @@
+     }
+ 
+     public static class ViewHolder extends RecyclerView.ViewHolder {
+-        public DynamicHeightNetworkImageView thumbnailView;
+-        public TextView titleView;
+-        public TextView subtitleView;
+-        public LinearLayout card_layout;
++        DynamicHeightNetworkImageView thumbnailView;
++        TextView titleView;
++        TextView subtitleView;
++        LinearLayout card_layout;
+ 
+-        public ViewHolder(View view) {
++        ViewHolder(View view) {
+             super(view);
+             thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
+             titleView = (TextView) view.findViewById(R.id.article_title);
